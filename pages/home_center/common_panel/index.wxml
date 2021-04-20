@@ -1,0 +1,11 @@
+<!--miniprogram/pages/home_center/common_panel/index.js.wxml-->
+<wxs src="./index.wxs" module="utils" />
+
+<image class="common-panel-backgroud" src="{{forest}}" />
+<navbar device_name="排插演示" bind:jumpTodeviceEditPage="jumpTodeviceEditPage" />
+
+<view class="common-panel-header">
+  <image class="common-panel-switch" src="../../../image/icons/socket.png" />
+  <view>已开启</view>
+</view>
+

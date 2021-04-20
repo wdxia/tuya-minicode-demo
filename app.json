@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/home_center/common_panel/index",
+    "pages/guide/index",
+    "pages/home_center/device_list/index",
+    
+    "pages/home_center/device_manage/index",
+    "pages/cloud_check/index",
+    "pages/function_center/device_connect/index",
+    "pages/web_view/index",
+    "pages/base_function/index"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home_center/common_panel/index",
+        "text": "开关",
+        "iconPath": "image/icons/switch.png",
+        "selectedIconPath": "image/icons/switchActive.png"
+      },
+      {
+        "pagePath": "pages/guide/index",
+        "text": "定时",
+        "iconPath": "image/icons/time.png",
+        "selectedIconPath": "image/icons/timeActive.png"
+      },
+      {
+        "pagePath": "pages/home_center/device_manage/index",
+        "text": "倒计时",
+        "iconPath": "image/icons/last.png",
+        "selectedIconPath": "image/icons/lastActive.png"
+      },
+      {
+        "pagePath": "pages/cloud_check/index",
+        "text": "用电量",
+        "iconPath": "image/icons/battery.png",
+        "selectedIconPath": "image/icons/batteryActive.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "tuya-ap-plugin": {
+      "version": "3.3.9",
+      "provider": "wxd2aa51ffacc3ff86"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
